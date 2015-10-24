@@ -15,6 +15,10 @@
 		2D9D00CE1BDB5CA1001A6EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00CC1BDB5CA1001A6EB7 /* LaunchScreen.storyboard */; };
 		2D9D00D91BDB5CA2001A6EB7 /* BarterBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00D81BDB5CA2001A6EB7 /* BarterBooksTests.m */; };
 		2D9D00E41BDB5CA2001A6EB7 /* BarterBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00E31BDB5CA2001A6EB7 /* BarterBooksUITests.m */; };
+		2D9D00FE1BDB5EB1001A6EB7 /* Books.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00FD1BDB5EB1001A6EB7 /* Books.m */; settings = {ASSET_TAGS = (); }; };
+		2D9D01011BDB5EE3001A6EB7 /* BarterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D01001BDB5EE3001A6EB7 /* BarterRequest.m */; settings = {ASSET_TAGS = (); }; };
+		2D9D01031BDB5F99001A6EB7 /* BarterLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D01021BDB5F99001A6EB7 /* BarterLogin.png */; settings = {ASSET_TAGS = (); }; };
+		2D9D01051BDB614D001A6EB7 /* FacebookLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D01041BDB614D001A6EB7 /* FacebookLogin.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,8 @@
 		2D9D00BF1BDB5CA1001A6EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9D00C11BDB5CA1001A6EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = BarterBooks/ViewController.h; sourceTree = "<group>"; };
+		2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = BarterBooks/ViewController.m; sourceTree = "<group>"; };
 		2D9D00C81BDB5CA1001A6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9D00CA1BDB5CA1001A6EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9D00CD1BDB5CA1001A6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		2D9D00DF1BDB5CA2001A6EB7 /* BarterBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarterBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D00E31BDB5CA2001A6EB7 /* BarterBooksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarterBooksUITests.m; sourceTree = "<group>"; };
 		2D9D00E51BDB5CA2001A6EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9D00FC1BDB5EB1001A6EB7 /* Books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Books.h; path = BarterBooks/BarterBooksModel/Books.h; sourceTree = "<group>"; };
+		2D9D00FD1BDB5EB1001A6EB7 /* Books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Books.m; path = BarterBooks/BarterBooksModel/Books.m; sourceTree = "<group>"; };
+		2D9D00FF1BDB5EE3001A6EB7 /* BarterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarterRequest.h; path = BarterBooks/BarterBooksModel/BarterRequest.h; sourceTree = "<group>"; };
+		2D9D01001BDB5EE3001A6EB7 /* BarterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarterRequest.m; path = BarterBooks/BarterBooksModel/BarterRequest.m; sourceTree = "<group>"; };
+		2D9D01021BDB5F99001A6EB7 /* BarterLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BarterLogin.png; path = BarterBooks/BarterBooksImages/BarterLogin.png; sourceTree = "<group>"; };
+		2D9D01041BDB614D001A6EB7 /* FacebookLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FacebookLogin.png; path = BarterBooks/BarterBooksImages/FacebookLogin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,10 @@
 		2D9D00B21BDB5CA1001A6EB7 = {
 			isa = PBXGroup;
 			children = (
+				2D9D00FB1BDB5E26001A6EB7 /* BarterBooksModel */,
+				2D9D00F91BDB5E13001A6EB7 /* BarterBooksImages */,
+				2D9D00F71BDB5D78001A6EB7 /* BarterBooksView */,
+				2D9D00F11BDB5D06001A6EB7 /* BarterBooksController */,
 				2D9D00BD1BDB5CA1001A6EB7 /* BarterBooks */,
 				2D9D00D71BDB5CA2001A6EB7 /* BarterBooksTests */,
 				2D9D00E21BDB5CA2001A6EB7 /* BarterBooksUITests */,
@@ -103,9 +117,6 @@
 			children = (
 				2D9D00C11BDB5CA1001A6EB7 /* AppDelegate.h */,
 				2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */,
-				2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */,
-				2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */,
-				2D9D00C71BDB5CA1001A6EB7 /* Main.storyboard */,
 				2D9D00CA1BDB5CA1001A6EB7 /* Assets.xcassets */,
 				2D9D00CC1BDB5CA1001A6EB7 /* LaunchScreen.storyboard */,
 				2D9D00CF1BDB5CA1001A6EB7 /* Info.plist */,
@@ -138,6 +149,67 @@
 				2D9D00E51BDB5CA2001A6EB7 /* Info.plist */,
 			);
 			path = BarterBooksUITests;
+			sourceTree = "<group>";
+		};
+		2D9D00F11BDB5D06001A6EB7 /* BarterBooksController */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D00F61BDB5D55001A6EB7 /* UserProfile */,
+				2D9D00F41BDB5D3E001A6EB7 /* DashBoard */,
+				2D9D00F21BDB5D25001A6EB7 /* Login */,
+			);
+			name = BarterBooksController;
+			sourceTree = "<group>";
+		};
+		2D9D00F21BDB5D25001A6EB7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */,
+				2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2D9D00F41BDB5D3E001A6EB7 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		2D9D00F61BDB5D55001A6EB7 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		2D9D00F71BDB5D78001A6EB7 /* BarterBooksView */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D00C71BDB5CA1001A6EB7 /* Main.storyboard */,
+			);
+			name = BarterBooksView;
+			sourceTree = "<group>";
+		};
+		2D9D00F91BDB5E13001A6EB7 /* BarterBooksImages */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D01041BDB614D001A6EB7 /* FacebookLogin.png */,
+				2D9D01021BDB5F99001A6EB7 /* BarterLogin.png */,
+			);
+			name = BarterBooksImages;
+			sourceTree = "<group>";
+		};
+		2D9D00FB1BDB5E26001A6EB7 /* BarterBooksModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D00FC1BDB5EB1001A6EB7 /* Books.h */,
+				2D9D00FD1BDB5EB1001A6EB7 /* Books.m */,
+				2D9D00FF1BDB5EE3001A6EB7 /* BarterRequest.h */,
+				2D9D01001BDB5EE3001A6EB7 /* BarterRequest.m */,
+			);
+			name = BarterBooksModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +321,8 @@
 				2D9D00CE1BDB5CA1001A6EB7 /* LaunchScreen.storyboard in Resources */,
 				2D9D00CB1BDB5CA1001A6EB7 /* Assets.xcassets in Resources */,
 				2D9D00C91BDB5CA1001A6EB7 /* Main.storyboard in Resources */,
+				2D9D01051BDB614D001A6EB7 /* FacebookLogin.png in Resources */,
+				2D9D01031BDB5F99001A6EB7 /* BarterLogin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9D00FE1BDB5EB1001A6EB7 /* Books.m in Sources */,
 				2D9D00C61BDB5CA1001A6EB7 /* ViewController.m in Sources */,
 				2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */,
+				2D9D01011BDB5EE3001A6EB7 /* BarterRequest.m in Sources */,
 				2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +393,7 @@
 				2D9D00C81BDB5CA1001A6EB7 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BarterBooks;
 			sourceTree = "<group>";
 		};
 		2D9D00CC1BDB5CA1001A6EB7 /* LaunchScreen.storyboard */ = {
