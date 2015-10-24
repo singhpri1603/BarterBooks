@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D18A9EA1BDB6EC2008CDD5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9E81BDB6EC2008CDD5E /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00BF1BDB5CA1001A6EB7 /* main.m */; };
 		2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */; };
-		2D9D00C61BDB5CA1001A6EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */; };
 		2D9D00C91BDB5CA1001A6EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00C71BDB5CA1001A6EB7 /* Main.storyboard */; };
 		2D9D00CB1BDB5CA1001A6EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00CA1BDB5CA1001A6EB7 /* Assets.xcassets */; };
 		2D9D00CE1BDB5CA1001A6EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00CC1BDB5CA1001A6EB7 /* LaunchScreen.storyboard */; };
@@ -39,12 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D18A9E71BDB6EC2008CDD5E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D18A9E81BDB6EC2008CDD5E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D9D00BB1BDB5CA1001A6EB7 /* BarterBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarterBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D00BF1BDB5CA1001A6EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9D00C11BDB5CA1001A6EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = BarterBooks/ViewController.h; sourceTree = "<group>"; };
-		2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = BarterBooks/ViewController.m; sourceTree = "<group>"; };
 		2D9D00C81BDB5CA1001A6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9D00CA1BDB5CA1001A6EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9D00CD1BDB5CA1001A6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,6 +88,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D18A9E51BDB6EC2008CDD5E /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DashBoard;
+			path = BarterBooks/BarterBooksController/DashBoard;
+			sourceTree = "<group>";
+		};
+		2D18A9E61BDB6EC2008CDD5E /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				2D18A9E71BDB6EC2008CDD5E /* ViewController.h */,
+				2D18A9E81BDB6EC2008CDD5E /* ViewController.m */,
+			);
+			name = LoginPage;
+			path = BarterBooks/BarterBooksController/LoginPage;
+			sourceTree = "<group>";
+		};
+		2D18A9E91BDB6EC2008CDD5E /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserProfile;
+			path = BarterBooks/BarterBooksController/UserProfile;
+			sourceTree = "<group>";
+		};
 		2D9D00B21BDB5CA1001A6EB7 = {
 			isa = PBXGroup;
 			children = (
@@ -154,34 +180,11 @@
 		2D9D00F11BDB5D06001A6EB7 /* BarterBooksController */ = {
 			isa = PBXGroup;
 			children = (
-				2D9D00F61BDB5D55001A6EB7 /* UserProfile */,
-				2D9D00F41BDB5D3E001A6EB7 /* DashBoard */,
-				2D9D00F21BDB5D25001A6EB7 /* Login */,
+				2D18A9E51BDB6EC2008CDD5E /* DashBoard */,
+				2D18A9E61BDB6EC2008CDD5E /* LoginPage */,
+				2D18A9E91BDB6EC2008CDD5E /* UserProfile */,
 			);
 			name = BarterBooksController;
-			sourceTree = "<group>";
-		};
-		2D9D00F21BDB5D25001A6EB7 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				2D9D00C41BDB5CA1001A6EB7 /* ViewController.h */,
-				2D9D00C51BDB5CA1001A6EB7 /* ViewController.m */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		2D9D00F41BDB5D3E001A6EB7 /* DashBoard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DashBoard;
-			sourceTree = "<group>";
-		};
-		2D9D00F61BDB5D55001A6EB7 /* UserProfile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = UserProfile;
 			sourceTree = "<group>";
 		};
 		2D9D00F71BDB5D78001A6EB7 /* BarterBooksView */ = {
@@ -348,10 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9D00FE1BDB5EB1001A6EB7 /* Books.m in Sources */,
-				2D9D00C61BDB5CA1001A6EB7 /* ViewController.m in Sources */,
 				2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */,
 				2D9D01011BDB5EE3001A6EB7 /* BarterRequest.m in Sources */,
 				2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */,
+				2D18A9EA1BDB6EC2008CDD5E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +579,7 @@
 				2D9D00EA1BDB5CA2001A6EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D9D00EB1BDB5CA2001A6EB7 /* Build configuration list for PBXNativeTarget "BarterBooksTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +588,7 @@
 				2D9D00ED1BDB5CA2001A6EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D9D00EE1BDB5CA2001A6EB7 /* Build configuration list for PBXNativeTarget "BarterBooksUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +597,7 @@
 				2D9D00F01BDB5CA2001A6EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
