@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D18A9EA1BDB6EC2008CDD5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9E81BDB6EC2008CDD5E /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2D18A9ED1BDB7452008CDD5E /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9EC1BDB7452008CDD5E /* UserProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D18A9F11BE0106D008CDD5E /* RegisterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9F01BE0106D008CDD5E /* RegisterPageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00BF1BDB5CA1001A6EB7 /* main.m */; };
 		2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */; };
 		2D9D00C91BDB5CA1001A6EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00C71BDB5CA1001A6EB7 /* Main.storyboard */; };
@@ -44,6 +45,8 @@
 		2D18A9E81BDB6EC2008CDD5E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D18A9EB1BDB7452008CDD5E /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
 		2D18A9EC1BDB7452008CDD5E /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		2D18A9EF1BE0106D008CDD5E /* RegisterPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterPageViewController.h; path = BarterBooks/BarterBooksController/RegisterPage/RegisterPageViewController.h; sourceTree = "<group>"; };
+		2D18A9F01BE0106D008CDD5E /* RegisterPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterPageViewController.m; path = BarterBooks/BarterBooksController/RegisterPage/RegisterPageViewController.m; sourceTree = "<group>"; };
 		2D9D00BB1BDB5CA1001A6EB7 /* BarterBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarterBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D00BF1BDB5CA1001A6EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9D00C11BDB5CA1001A6EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,15 @@
 			path = BarterBooks/BarterBooksController/UserProfile;
 			sourceTree = "<group>";
 		};
+		2D18A9EE1BE00FAB008CDD5E /* RegisterPage */ = {
+			isa = PBXGroup;
+			children = (
+				2D18A9EF1BE0106D008CDD5E /* RegisterPageViewController.h */,
+				2D18A9F01BE0106D008CDD5E /* RegisterPageViewController.m */,
+			);
+			name = RegisterPage;
+			sourceTree = "<group>";
+		};
 		2D9D00B21BDB5CA1001A6EB7 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +197,7 @@
 		2D9D00F11BDB5D06001A6EB7 /* BarterBooksController */ = {
 			isa = PBXGroup;
 			children = (
+				2D18A9EE1BE00FAB008CDD5E /* RegisterPage */,
 				2D18A9E51BDB6EC2008CDD5E /* DashBoard */,
 				2D18A9E61BDB6EC2008CDD5E /* LoginPage */,
 				2D18A9E91BDB6EC2008CDD5E /* UserProfile */,
@@ -357,6 +370,7 @@
 			files = (
 				2D9D00FE1BDB5EB1001A6EB7 /* Books.m in Sources */,
 				2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */,
+				2D18A9F11BE0106D008CDD5E /* RegisterPageViewController.m in Sources */,
 				2D9D01011BDB5EE3001A6EB7 /* BarterRequest.m in Sources */,
 				2D18A9ED1BDB7452008CDD5E /* UserProfileViewController.m in Sources */,
 				2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */,
