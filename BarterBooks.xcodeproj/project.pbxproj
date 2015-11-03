@@ -10,6 +10,8 @@
 		2D18A9EA1BDB6EC2008CDD5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9E81BDB6EC2008CDD5E /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2D18A9ED1BDB7452008CDD5E /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9EC1BDB7452008CDD5E /* UserProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2D18A9F11BE0106D008CDD5E /* RegisterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18A9F01BE0106D008CDD5E /* RegisterPageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D353E891BE87EA500BDA3CE /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D353E881BE87EA500BDA3CE /* UserSession.m */; settings = {ASSET_TAGS = (); }; };
+		2D353E8A1BE87EA500BDA3CE /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D353E881BE87EA500BDA3CE /* UserSession.m */; settings = {ASSET_TAGS = (); }; };
 		2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00BF1BDB5CA1001A6EB7 /* main.m */; };
 		2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D00C21BDB5CA1001A6EB7 /* AppDelegate.m */; };
 		2D9D00C91BDB5CA1001A6EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9D00C71BDB5CA1001A6EB7 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		2D18A9EC1BDB7452008CDD5E /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		2D18A9EF1BE0106D008CDD5E /* RegisterPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterPageViewController.h; path = BarterBooks/BarterBooksController/RegisterPage/RegisterPageViewController.h; sourceTree = "<group>"; };
 		2D18A9F01BE0106D008CDD5E /* RegisterPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterPageViewController.m; path = BarterBooks/BarterBooksController/RegisterPage/RegisterPageViewController.m; sourceTree = "<group>"; };
+		2D353E871BE87EA500BDA3CE /* UserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSession.h; path = BarterBooks/BarterBooksModel/UserSession.h; sourceTree = "<group>"; };
+		2D353E881BE87EA500BDA3CE /* UserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSession.m; path = BarterBooks/BarterBooksModel/UserSession.m; sourceTree = "<group>"; };
 		2D9D00BB1BDB5CA1001A6EB7 /* BarterBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarterBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D00BF1BDB5CA1001A6EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D9D00C11BDB5CA1001A6EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 				2D9D00FD1BDB5EB1001A6EB7 /* Books.m */,
 				2D9D00FF1BDB5EE3001A6EB7 /* BarterRequest.h */,
 				2D9D01001BDB5EE3001A6EB7 /* BarterRequest.m */,
+				2D353E871BE87EA500BDA3CE /* UserSession.h */,
+				2D353E881BE87EA500BDA3CE /* UserSession.m */,
 			);
 			name = BarterBooksModel;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				2D9D00FE1BDB5EB1001A6EB7 /* Books.m in Sources */,
 				2D9D00C31BDB5CA1001A6EB7 /* AppDelegate.m in Sources */,
 				2D18A9F11BE0106D008CDD5E /* RegisterPageViewController.m in Sources */,
+				2D353E891BE87EA500BDA3CE /* UserSession.m in Sources */,
 				2D9D01011BDB5EE3001A6EB7 /* BarterRequest.m in Sources */,
 				2D18A9ED1BDB7452008CDD5E /* UserProfileViewController.m in Sources */,
 				2D9D00C01BDB5CA1001A6EB7 /* main.m in Sources */,
@@ -383,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9D00D91BDB5CA2001A6EB7 /* BarterBooksTests.m in Sources */,
+				2D353E8A1BE87EA500BDA3CE /* UserSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
